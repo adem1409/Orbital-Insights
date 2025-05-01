@@ -1,0 +1,38 @@
+Sattelites :
+ - Name (Current Official Name of Satellite)
+ - Operator
+ - Country Of Operator (Multinational , Some Values are composed separted by "/")
+ - Contractor
+ - Country Of Contractor
+ - Purpose
+ - Users (Some Values are composed separted by "/")
+ - Class of Orbit
+ - Period (missing values)
+ - Launch Mass (missing values)
+ - Date of Launch
+ - Expected Lifetime (missing values)
+ - Contractor
+ - Launch Site
+ - Launch Vehicle
+
+
+Launches : 
+ - Name
+ - Date (Date , Time needs splitting) 
+ - Status (Omit "Launch" , "Launch was Partial Failure")
+ - Provider
+ - Rocket
+ - Mission (missing values)
+ - Launch Pad (Launch Pad | Launch Site, place)
+
+
+Rockets : 
+ - Name
+ - Company (Rename Cmp)
+ - Status
+ - Liftoff Thrust (missing values)
+ - Payload (missing values 0)
+ - Stages (missing values)
+ - Straps-Ons (missing values)
+ - Rocket Height (convert to float , missing values)
+ - Price (convert to float , missing values)
