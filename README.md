@@ -1,6 +1,6 @@
 # 🚀 Orbital Insights
 
-**Orbital Insights** is a data warehouse and business intelligence project built around satellites launch data. It models real-world satellites and rockest information using a star schema, automates the ETL process with Python, and visualizes insights through Metabase dashboards.
+**Orbital Insights** is a data warehouse and business intelligence project built around satellites launch data. It models real-world satellites and rockest information using a star schema, automates the ETL process with Python, and visualizes insights through Metabase dashboard.
 
 ## 📊 Project Overview
 
@@ -76,3 +76,9 @@ Data is loaded into a PostgreSQL data warehouse using psycopg2 and parameterized
 Dimension tables are inserted with ON CONFLICT DO NOTHING to avoid duplicates.
 
 Fact table entries are inserted only after all foreign key lookups succeed.
+
+
+## 📊 KPI's
+
+![space dashboard_page](https://github.com/user-attachments/assets/dea4f75d-1881-4461-931a-0b8cddf2aebc)
+
