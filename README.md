@@ -45,6 +45,7 @@ satellites.csv – information about satellites and their orbits
 
 Data is read into pandas DataFrames for initial inspection and cleansing.
 
+
 🧪 2. Transform
 
 📅 Date Formatting
@@ -66,6 +67,7 @@ Fuzzy matching (using fuzzywuzzy) is applied to align these names to a canonical
 🧩 Building the Fact Table
 The cleaned and merged data is used to assign foreign keys from all dimension tables.
 Each row in the fact table (fact_satellite_launch) is a unique combination of date, launch, satellite, rocket, and launch site — without any direct measure, forming a factless fact table.
+
 
 🛢️ 3. Load
 
